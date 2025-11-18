@@ -1,0 +1,98 @@
+ @import "tailwindcss";
+
+
+ body {
+      background-color: #0b1420;
+      color: #c5def3;
+      font-family: 'Inter', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+    }
+    
+    .container {
+      max-width: 850px;
+      margin: 0 auto;
+      padding: 48px 24px 24px 24px;
+    }
+    
+    /*
+    h2 {
+      color: #fff;
+      font-size: 2em;
+      margin-top: 0;
+      font-weight: 700;
+    }*/
+    .subtitle {
+      color: #b0c4d5;
+      font-size: 1.1em;
+      margin-bottom: 38px;
+    }
+    .flex-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 28px;
+      align-items: flex-start;
+    }
+    .app-mockup {
+      background: linear-gradient(135deg, #203356 78%, #182236 100%);
+      border-radius: 25px;
+      padding: 36px 28px 20px 28px;
+      box-shadow: 0 4px 24px 0 rgba(25,50,90,.32);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 320px;
+      min-height: 380px;
+      margin-bottom: 0;
+      margin-top: 8px;
+    }
+    .app-mockup img {
+      width: 156px;
+      border-radius: 27px;
+      box-shadow: 0 6px 26px 0 rgba(10,18,32,0.5);
+      margin-bottom: 18px;
+    }
+    .chip {
+      background: #193361;
+      color: #e9efff;
+      padding: 12px 20px;
+      border-radius: 22px;
+      margin-top: 10px;
+      font-size: 1.03em;
+      display: inline-block;
+      box-shadow: 0 2px 14px 0 rgba(17,54,94,0.25);
+    }
+    .project-task {
+      flex: 1;
+      margin-left: 30px;
+    }
+    .project-task-title {
+      color: #8bb8fe;
+      font-size: 1.12em;
+      margin-bottom: 8px;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+    }
+    .project-task-text {
+      color: #d7e9ff;
+      font-size: 1.12em;
+      line-height: 1.6em;
+      font-weight: 400;
+      margin-top: 0;
+    }
+    @media (max-width: 700px) {
+      .flex-row {
+        flex-direction: column;
+        gap: 0;
+      }
+      .app-mockup {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 22px;
+        padding: 20px 10px;
+      }
+      .project-task {
+        margin-left: 0;
+      }
+    }
