@@ -1,6 +1,6 @@
 .hadding {
   aspect-ratio: 16/8;
-  width: 100vw;
+  width: 100%;
   background: radial-gradient(circle, rgba(92, 102, 204, 1) 0%, rgba(30, 75, 117, 1) 49%, rgba(0, 19, 35, 1) 91%);
   display: flex;
   align-items: center;
@@ -24,12 +24,12 @@
   flex-shrink: 0;
 }
 
-.glassRectangle {
-  width: 22vw;
-  height: 12vw;
-  max-height: 200px;
-  max-width: 400px;
-  min-width: 200px;
+ .glassRectangle { 
+  width: auto;
+  height: auto;
+  /* max-height: 200px;  */
+  /* max-width: 400px;  */
+  /* min-width: 200px;  */
   border-radius: 1.5em;
   background: rgba(255,255,255,0.10);
   box-shadow: 0 0.15em 1.5em 0 rgba(70, 120, 255, 0.19);
@@ -44,11 +44,59 @@
   font-size: 0.8em;
   letter-spacing: 0.02em;
 }
+.NidAds {
+  font-family: 'Geist', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 11vw;                            /* Responsive size */
+  font-weight: 400;                          /* Modern medium weight */
+  line-height: 1;                            /* Tight line spacing */
+  letter-spacing: 0.01em;                    /* Slight tracking */
+  color: #e0f5ff;                            /* fallback: light blue */
+  background: linear-gradient(90deg, #81b5e6 30%, #e5effe 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;                        /* Center headline */
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  pointer-events: none;
+}
+
 
 @media (max-width: 800px) {
+  
   .hadding {
+  
     font-size: 12vw;
   }
+  .NidAds {
+  font-family: 'Geist', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 11vw;                            /* Responsive size */
+  font-weight: 400;                          /* Modern medium weight */
+  line-height: 1;                            /* Tight line spacing */
+  letter-spacing: 0.01em;                    /* Slight tracking */
+  color: #e0f5ff;                            /* fallback: light blue */
+  background: linear-gradient(90deg, #81b5e6 30%, #e5effe 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;                        /* Center headline */
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  pointer-events: none;
+}
+
+
+
   .circleImage {
     width: 20vw;
     height: 20vw;
@@ -56,9 +104,9 @@
     min-height: 110px;
   }
   .glassRectangle {
-    width: 70vw;
-    height: auto;
-    min-width: 220px;
+    width: auto; 
+    height: auto; 
+    min-width: 220px; 
     font-size: 0.15em;
     padding: 1em;
     position: static;
@@ -79,32 +127,30 @@
     height: 25vw;
   }
   .glassRectangle {
-    width: 50vw;
-    height: auto;
+    width: auto;
+    height: auto; 
     padding: 0.5em;
     font-size: 1.5em;
   }
 }
 
-.NidAds {
-  font-family: 'Geist', 'Helvetica Neue', Arial, sans-serif;
-  font-size: 9vw;                            /* Responsive size */
-  font-weight: 400;                          /* Modern medium weight */
-  line-height: 1;                            /* Tight line spacing */
-  letter-spacing: 0.01em;                    /* Slight tracking */
-  color: #e0f5ff;                            /* fallback: light blue */
-  background: linear-gradient(90deg, #81b5e6 30%, #e5effe 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-align: center;                        /* Center headline */
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 1;
-  pointer-events: none;
+@media (max-width: 400px) {
+  .hadding {
+      aspect-ratio: 16/18;
+    font-size: 1vw;
+    padding: 0 2vw;
+  }
+  .circleImage {
+    min-width: 70px;
+    min-height: 70px;
+    width: 25vw;
+    height: 25vw;
+  }
+  .glassRectangle {
+    transform: translateX(-30px);
+    padding: 10px;
+    border-radius: 4px; 
+    font-size: 14px;
+  }
 }
 

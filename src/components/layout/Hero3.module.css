@@ -1,17 +1,15 @@
 
-body {
-      background: #112033;
-      color: #c5def3;
-      font-family: 'Inter', Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-    .timeline-container {
-      max-width: 780px;
+.ContainerAll{
+ background-color: #12284e;
+      max-width: 100%;
+}
+    .timelineContainer {
+      max-width: 1300px;
       margin: 0 auto;
       padding: 48px 10px 0 10px;
+     
     }
-    h3.timeline-title {
+    .timelineTitle {
       text-align: center;
       font-size: 2.2em;
       font-weight: 700;
@@ -19,7 +17,7 @@ body {
       color: #6bbafa;
       display: inline;
     }
-    .timeline-title-text {
+    .timelineTitleText {
       color: #fff;
       font-size: 2.2em;
       font-weight: 700;
@@ -27,18 +25,18 @@ body {
       letter-spacing: 0.01em;
       display: inline;
     }
-    .steps-grid {
+    .stepsGrid {
       margin-top: 50px;
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       grid-gap: 28px 18px;
     }
     
-    .timeline-step:nth-child(7) {
+    .timelineStep:nth-child(7) {
       grid-column: 4;
     }
 
-.timeline-step {  
+.timelineStep {  
     background: #152c46cc;
     border-radius: 15px;
     padding: 22px 18px 17px 18px;
@@ -55,7 +53,7 @@ body {
 
 }
 
-.timeline-step:hover {
+.timelineStep:hover {
     background: linear-gradient(135deg, #2e78ff 80%, #1e457c 100%);
     color: #fff;
     box-shadow: 0 4px 20px 0 rgba(51,104,255,0.18);
@@ -64,7 +62,7 @@ body {
 
       
     
-    .timeline-step-number {
+    .timelineStepNumber {
       position: absolute;
       top: 17px;
       right: 22px;
@@ -73,52 +71,50 @@ body {
       font-weight: 600;
       opacity: 0.55;
     }
-    .timeline-step h3 {
+    .timelineStep h3 {
       color: #bfe2ff;
       font-size: 1.13em;
       font-weight: 700;
       margin: 0 0 8px 0;
       letter-spacing: 0.01em;
     }
-    .timeline-step.highlight h3 {
+    .timelineStep.highlight h3 {
       color: #fff;
     }
-    .timeline-step p {
+    .timelineStep p {
       margin: 0;
       font-size: 0.99em;
       color: #e0eefb;
     }
     /* Responsive adjustments */
     @media (max-width: 900px) {
-      .steps-grid {
+      .stepsGrid {
         grid-template-columns: repeat(2, 1fr);
       }
-      .timeline-step:nth-child(5), .timeline-step:nth-child(7) {
+      .timelineStep:nth-child(5), .timelineStep:nth-child(7) {
         grid-column: auto;
       }
     }
     @media (max-width: 600px) {
-      .steps-grid {
+      .stepsGrid {
         grid-template-columns: 1fr;
         grid-gap: 16px 0;
       }
     }
-    .mockup-section {
+    .mockupSection {
       margin: 68px auto 30px auto;
-      max-width: 880px;
+      max-width: 1300px;
       padding: 0 10px;
       text-align: center;
     }
-    .mockup-image {
-      margin-left: auto;
-      margin-right: auto;
-
-      width: 80%;
-      border-radius: 17px;
+    .mockupImage {
+margin: 0 auto;
+      width: 100%;
+      border-radius: 40px;
       margin-top: 18px;
       box-shadow: 0 8px 32px 0 rgba(44,86,166,0.23);
     }
-    .mockup-label {
+    .mockupLabel {
       color: #92b5ea;
       background: #12284e;
       padding: 5px 16px;

@@ -1,40 +1,38 @@
- @import "tailwindcss";
-
-
- body {
-      background-color: #0b1420;
-      color: #c5def3;
-      font-family: 'Inter', Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      min-height: 100vh;
-    }
-    
-    .container {
-      max-width: 850px;
+ .bodyAll{ 
+   max-width: 100%;
+   background-color: #182236;
+ } 
+ .container {
+      max-width: 100%;
+      max-width: 1300px;
       margin: 0 auto;
       padding: 48px 24px 24px 24px;
+      background-color: #182236;
+
     }
     
-    /*
-    h2 {
-      color: #fff;
-      font-size: 2em;
+    
+    .heading {
+      color: #3f74ad;
+      font-size: 60px;
       margin-top: 0;
-      font-weight: 700;
-    }*/
+      font-weight: 400;
+      text-align: center;
+      line-height: 55px;
+    }
     .subtitle {
       color: #b0c4d5;
       font-size: 1.1em;
-      margin-bottom: 38px;
+      max-width: 50%;
+      margin: 20px auto 38px auto;
+      text-align: center;
     }
-    .flex-row {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 28px;
-      align-items: flex-start;
+    .flexRow {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 20px;
     }
-    .app-mockup {
+    .appMockup {
       background: linear-gradient(135deg, #203356 78%, #182236 100%);
       border-radius: 25px;
       padding: 36px 28px 20px 28px;
@@ -42,12 +40,12 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      width: 320px;
-      min-height: 380px;
+      width: 100%;
+      object-fit: contain;
       margin-bottom: 0;
       margin-top: 8px;
     }
-    .app-mockup img {
+    .appMockup img {
       width: 156px;
       border-radius: 27px;
       box-shadow: 0 6px 26px 0 rgba(10,18,32,0.5);
@@ -63,18 +61,18 @@
       display: inline-block;
       box-shadow: 0 2px 14px 0 rgba(17,54,94,0.25);
     }
-    .project-task {
+    .projectTask {
       flex: 1;
       margin-left: 30px;
     }
-    .project-task-title {
+    .projectTaskTitle {
       color: #8bb8fe;
       font-size: 1.12em;
       margin-bottom: 8px;
       font-weight: 700;
       letter-spacing: 0.03em;
     }
-    .project-task-text {
+    .projectTaskText {
       color: #d7e9ff;
       font-size: 1.12em;
       line-height: 1.6em;
@@ -82,17 +80,33 @@
       margin-top: 0;
     }
     @media (max-width: 700px) {
-      .flex-row {
-        flex-direction: column;
-        gap: 0;
+      .heading {
+      color: #3f74ad;
+      font-size: 30px;
+      margin-top: 0;
+      font-weight: 400;
+      text-align: center;
+      line-height: 55px;
+    }
+    .subtitle {
+      color: #b0c4d5;
+      font-size: 0.65em;
+      max-width: 50%;
+      margin: 20px auto 38px auto;
+      text-align: center;
+    }
+      .flexRow {
+      display: table-row;
+       grid-template-rows: 1fr 1fr; 
+      grid-gap: 20px;
       }
-      .app-mockup {
+      .appMockup {
         width: 100%;
         margin-right: 0;
         margin-bottom: 22px;
         padding: 20px 10px;
       }
-      .project-task {
+      .projectTask {
         margin-left: 0;
       }
     }
