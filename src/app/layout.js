@@ -36,6 +36,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <script src="https://cdn.tailwindcss.com"></script>
+      </head>
       <body className={`${geistSans.variable} ${geistMono.variable} app-shell`}>
         <a href="#main-content" className="skip-link">
           Skip to main content

@@ -1,6 +1,7 @@
 .section {
+
   min-height: 100vh;
-  background: radial-gradient(ellipse at 40% 40%, #81b5e668 0%, #23354b 100%);
+  background: radial-gradient(ellipse at 40% 40%, #0f1f39 0%, #12284e 100%);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -21,9 +22,9 @@
 }
 
 .imageCard {
-  background: #183161d0;
+  background: #1c2c4ad0;
   border-radius: 22px;
-  box-shadow: 0 2px 18px 0 rgba(70,120,255,0.16);
+  box-shadow: 0 2px 18px 0 rgba(19, 40, 95, 0.16);
   overflow: hidden;
   display: flex;
   align-items: center;

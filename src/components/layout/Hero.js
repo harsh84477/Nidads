@@ -12,7 +12,7 @@ export default function Hero() {
               </p>
             </div>
           </div>
-          <h1 className={styles.NidAds} >HabibiSkills</h1>
+          <h1 className={styles.NidAds} >NIDADS</h1>
         </div>
       </div>
     </main>

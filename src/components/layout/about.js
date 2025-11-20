@@ -1,10 +1,4 @@
-import "@/styles/blog.css";
 import styles from './about.module.css';
-export const metadata = {
-  title: "About",
-};
-
-
 
 export default function About() {
   return (

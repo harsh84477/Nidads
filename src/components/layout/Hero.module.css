@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@font-face {
+  font-family: 'Monoton';
+  src: url('/Monoton-Regular.ttf') format('truetype');
+
+}
+
 .hadding {
   aspect-ratio: 16/8;
   width: 100%;
+    /* background: radial-gradient(ellipse at 60% 25%, #3b619a85 0%, #001342 100%); */
   background: radial-gradient(circle, rgba(92, 102, 204, 1) 0%, rgba(30, 75, 117, 1) 49%, rgba(0, 19, 35, 1) 91%);
   display: flex;
   align-items: center;
@@ -14,10 +22,11 @@
   max-height: 22vw;
   height: 30vw;
   border-radius: 50%;
+    /* background: radial-gradient(ellipse at 60% 25%, #3b619a 0%, #000000 100%); */
   background: radial-gradient(circle at 40% 38%, #a8d6ff 0%, #3b5bcf 36%, #21436b 80%, #13243a 100%);
   box-shadow: 0 0 3vw 1vw #95d3ff55, 0 .6vw 3vw 0 #6f85eb88 inset, 0 -1vw 2vw 0 #111b2655 inset;
   position: absolute;
-  top: 50%;
+  top: 52%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 5;
@@ -44,9 +53,13 @@
   font-size: 0.8em;
   letter-spacing: 0.02em;
 }
-.NidAds {
-  font-family: 'Geist', 'Helvetica Neue', Arial, sans-serif;
-  font-size: 11vw;                            /* Responsive size */
+.NidAds  {
+   font-family: 'Monoton', sans-serif;
+  font-size: 5vw;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 0.04em;
+  /* font-size: 11vw;                            Responsive size */
   font-weight: 400;                          /* Modern medium weight */
   line-height: 1;                            /* Tight line spacing */
   letter-spacing: 0.01em;                    /* Slight tracking */
@@ -102,12 +115,14 @@
     height: 20vw;
     min-width: 110px;
     min-height: 110px;
+    top: 65%;
+    left: 50%;
   }
   .glassRectangle {
     width: auto; 
     height: auto; 
     min-width: 220px; 
-    font-size: 0.15em;
+    font-size: 10px;
     padding: 1em;
     position: static;
     transform: none;
@@ -130,7 +145,7 @@
     width: auto;
     height: auto; 
     padding: 0.5em;
-    font-size: 1.5em;
+    font-size: 8px;
   }
 }
 
@@ -145,6 +160,8 @@
     min-height: 70px;
     width: 25vw;
     height: 25vw;
+    top: 55%;
+    left: 50%;
   }
   .glassRectangle {
     transform: translateX(-30px);
