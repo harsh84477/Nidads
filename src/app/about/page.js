@@ -12,7 +12,7 @@ export default function About() {
       <div className={styles.heroAbout}>
         <h1 className={styles.aboutTitle}>About HabibiSkills</h1>
         <p className={styles.aboutLead}>
-          HabibiSkills is an intelligent mentor app that helps expats, newcomers, and professionals adapt smoothly to UAE business and culture.
+          Habibi is an intelligent mentor app that helps expats, newcomers, and professionals adapt smoothly to UAE business and culture.
         </p>
       </div>
       <div className={styles.aboutGrid}>

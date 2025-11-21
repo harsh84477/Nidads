@@ -4,7 +4,6 @@ import Hero2 from "@/components/layout/Hero2";
 import Hero3 from "@/components/layout/Hero3";
 import Hero4 from "@/components/layout/Hero4";
 import Hero5 from "@/components/layout/Hero5";
-import About from "@/components/layout/about";
 
 
 export default function Home() {
@@ -15,8 +14,6 @@ export default function Home() {
         <Hero3/>
         <Hero4/>
         <Hero5/>
-        <contact/>
-        <About/>
        
     </main>
   );

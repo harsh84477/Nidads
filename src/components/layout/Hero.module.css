@@ -54,12 +54,12 @@
   letter-spacing: 0.02em;
 }
 .NidAds  {
-   font-family: 'Monoton', sans-serif;
+  font-family: 'Monoton', sans-serif;
   font-size: 5vw;
   color: #fff;
   text-align: center;
   letter-spacing: 0.04em;
-  /* font-size: 11vw;                            Responsive size */
+  font-size: 11vw;                          /*  Responsive size */
   font-weight: 400;                          /* Modern medium weight */
   line-height: 1;                            /* Tight line spacing */
   letter-spacing: 0.01em;                    /* Slight tracking */
@@ -87,7 +87,8 @@
     font-size: 12vw;
   }
   .NidAds {
-  font-family: 'Geist', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Monoton', sans-serif;
+
   font-size: 11vw;                            /* Responsive size */
   font-weight: 400;                          /* Modern medium weight */
   line-height: 1;                            /* Tight line spacing */
@@ -151,7 +152,7 @@
 
 @media (max-width: 400px) {
   .hadding {
-      aspect-ratio: 16/18;
+      aspect-ratio: 16/30;
     font-size: 1vw;
     padding: 0 2vw;
   }
@@ -160,7 +161,7 @@
     min-height: 70px;
     width: 25vw;
     height: 25vw;
-    top: 55%;
+    top: 50%;
     left: 50%;
   }
   .glassRectangle {

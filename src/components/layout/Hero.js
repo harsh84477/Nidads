@@ -8,7 +8,7 @@ export default function Hero() {
           <div className={styles.circleImage}>
             <div className={styles.glassRectangle}>
               <p>
-                HabibiSkills is an intelligent mentor app designed to help expats, newcomers, and professionals adapt smoothly to the unique business and cultural environment of the United Arab Emirates.
+                HabibiSkills is an intelligent mentor app designed to help expats, newcomers, and professionals adapt smoothly to the  unique business and cultural environment of the United Arab Emirates.
               </p>
             </div>
           </div>
