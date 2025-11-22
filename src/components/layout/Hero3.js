@@ -48,7 +48,7 @@ export default function Hero3() {
   <div className={styles.mockupSection}>
     <span className={styles.mockupLabel}>Landing Page | Main</span>
     <br/>
-    <img src="Screenshot 2025-11-17 142944.png" alt="App Landing Page Mockup" className={styles.mockupImage} />
+    <img src="8k_earth_clouds.jpg" alt="App Landing Page Mockup" className={styles.mockupImage} />
   </div>
     </div>
   )

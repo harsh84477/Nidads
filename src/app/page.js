@@ -10,10 +10,10 @@ export default function Home() {
   return (
     <main>
       <Hero/>
-        <Hero2/>
+      <Hero2/>
         <Hero3/>
-        <Hero4/>
-        <Hero5/>
+   {/* 
+   */}     
        
     </main>
   );

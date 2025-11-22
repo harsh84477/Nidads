@@ -1,13 +1,15 @@
  .bodyAll{ 
    max-width: 100%;
-   background-color: #182236;
+   background-color: #001323;
+padding: 40px;
  } 
  .container {
+  border-top: 2px solid white;
       max-width: 100%;
       max-width: 1300px;
       margin: 0 auto;
-      padding: 48px 24px 24px 24px;
-      background-color: #182236;
+      padding: 100px 0px 24px 0px;
+      background-color: #001323;
 
     }
     
@@ -23,7 +25,7 @@
     .subtitle {
       color: #b0c4d5;
       font-size: 1.1em;
-      max-width: 50%;
+      max-width: 80%;
       margin: 20px auto 38px auto;
       text-align: center;
     }
@@ -51,16 +53,7 @@
       box-shadow: 0 6px 26px 0 rgba(10,18,32,0.5);
       margin-bottom: 18px;
     }
-    .chip {
-      background: #193361;
-      color: #e9efff;
-      padding: 12px 20px;
-      border-radius: 22px;
-      margin-top: 10px;
-      font-size: 1.03em;
-      display: inline-block;
-      box-shadow: 0 2px 14px 0 rgba(17,54,94,0.25);
-    }
+   
     .projectTask {
       flex: 1;
       margin-left: 30px;
@@ -77,6 +70,7 @@
       font-size: 1.12em;
       line-height: 1.6em;
       font-weight: 400;
+      text-align: justify;
       margin-top: 0;
     }
     @media (max-width: 700px) {
